@@ -66,17 +66,17 @@ class MainActivity2 : AppCompatActivity() {
                             items = listOf(
                                 BottomNavBarItem(
                                     name = "First",
-                                    route = "Card Search",
+                                    route = "Deck List",
                                     icon = Icons.Default.Home
                             ),
                                 BottomNavBarItem(
                                     name = "Second",
-                                    route = "Card Details",
+                                    route = "Card Search",
                                     icon = Icons.Default.Home
                                 ),
                                 BottomNavBarItem(
                                     name = "Third",
-                                    route = "Deck List",
+                                    route = "Card Details",
                                     icon = Icons.Default.Notifications,
                                     badgeCount = 0
                                 )

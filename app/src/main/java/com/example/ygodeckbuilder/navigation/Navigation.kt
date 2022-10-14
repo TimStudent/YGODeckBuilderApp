@@ -20,14 +20,15 @@ import com.example.ygodeckbuilder.views.ViewModelScreen
 @Composable
 fun Navigation(navController: NavHostController, cardViewModel: CardViewModel) {
     NavHost(navController = navController, startDestination = "Card Search") {
+        composable("Deck List") {
+            DeckListScreen(viewModel = cardViewModel)
+        }
         composable("Card Search") {
+
             ViewModelScreen(viewModel = cardViewModel)
         }
         composable("Card Details") {
             CardDetailScreen()
-        }
-        composable("Deck List") {
-            DeckListScreen()
         }
     }
 }

@@ -16,7 +16,7 @@ interface ApiHelper {
     companion object {
         const val BASE_URL = "https://db.ygoprodeck.com/api/v7/"
         private const val PATH_SEARCH = "cardinfo.php"
-        val servicecApi: ApiHelper = ApiService.cardService
+        val serviceApi: ApiHelper = ApiService.cardService
 
     }
 }
